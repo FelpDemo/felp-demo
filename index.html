@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  
+  <!-- PWA / Fullscreen on iPhone -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="felp." />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#8B1A4A" />
+  
+  <!-- Prevent zoom -->
+  <meta name="format-detection" content="telephone=no" />
+  
+  <title>felp. — Your food, filtered.</title>
+  
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  
+  <style>
+    * { margin: 0; padding: 0; }
+    html, body, #root { 
+      width: 100%; height: 100%; 
+      overflow: hidden; 
+      background: #8B1A4A;
+      -webkit-text-size-adjust: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
